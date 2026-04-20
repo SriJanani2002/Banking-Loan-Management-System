@@ -9,10 +9,6 @@ import com.bank.loanmanagement.enums.AccountType;
 
 @Entity
 @Table(name = "accounts")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class Account {
 
 	@Id

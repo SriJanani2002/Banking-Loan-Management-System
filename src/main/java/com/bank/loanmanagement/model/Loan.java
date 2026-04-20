@@ -1,9 +1,10 @@
 package com.bank.loanmanagement.model;
 
-import com.bank.loanmanagement.enums.LoanStatus;
 import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+
+import com.bank.loanmanagement.enums.LoanStatus;
 
 @Entity
 @Table(name = "loans")
